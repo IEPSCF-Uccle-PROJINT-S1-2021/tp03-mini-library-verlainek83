@@ -28,6 +28,7 @@ const list = function(callback) {
             // pacours colonnes
             alert(mesBooks[il][ic]);
             console.log(mesBooks[il][ic]);
+            return mesBooks[il][ic];
 
         }
     }
