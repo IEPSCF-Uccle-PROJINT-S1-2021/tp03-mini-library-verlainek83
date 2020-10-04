@@ -1,3 +1,3 @@
-const books = require('books');
+const books = require('./books');
 
-console.log(`list of books ${books(9)}`);
+console.log(`list of books ${books.list(9)}`);
