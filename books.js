@@ -1,4 +1,4 @@
-const list = function(callback) {
+exports.list = function(callback) {
     //for (let i = 0; i < this.length; i++) {
     //console.log(this[i]);
     //}
@@ -20,14 +20,14 @@ const list = function(callback) {
 
     for (var il = 0; il < nbl; il++) {
 
-        alert('Parcours des colonnes de la ligne => ' + il);
-        console.log('Parcours des colonnes de la ligne => ' + il);
+        //alert('Parcours des colonnes de la ligne => ' + il);
+        //console.log('Parcours des colonnes de la ligne => ' + il);
 
         for (var ic = 0; ic < nbc; ic++) {
 
             // pacours colonnes
-            alert(mesBooks[il][ic]);
-            console.log(mesBooks[il][ic]);
+            // alert(mesBooks[il][ic]);
+            // console.log(mesBooks[il][ic]);
             return mesBooks[il][ic];
 
         }
