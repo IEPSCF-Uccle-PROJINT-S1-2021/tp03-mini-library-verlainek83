@@ -21,15 +21,16 @@ exports.list = function(callback) {
     for (var il = 0; il < nbl; il++) {
 
         //alert('Parcours des colonnes de la ligne => ' + il);
-        //console.log('Parcours des colonnes de la ligne => ' + il);
+        console.log('Parcours des colonnes de la ligne => ' + il);
 
         for (var ic = 0; ic < nbc; ic++) {
 
             // pacours colonnes
             // alert(mesBooks[il][ic]);
-            // console.log(mesBooks[il][ic]);
-            return mesBooks[il][ic];
-
+            console.log(mesBooks[il][ic]);
+            //document.write(mesBooks[il][ic]);
         }
+
     }
+    return 1;
 }
